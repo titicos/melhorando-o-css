@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Mochiy+Pop+One&family=Roboto+Slab:wght@300&family=Shizuru&family=Zen+Antique&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: deepskyblue solid 10px;
+}
+
+
+header div{
+  width: 120px;
+  height: 10vh;
+  position: relative;
+  left: 5%;
+  
+
+}
+
+header nav{
+    padding: 5px;
+}
+
+header >nav{
+    position: absolute;
+    right: 10%;
+    word-spacing: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Zen Antique', serif;}
+    
+
+
+header div img{
+    width: 100%;
+    
+}
+
+
+nav a:hover{
+    text-decoration: underline blue; 
+    cursor: pointer;
+    color: white;
+    background-color: black;
+   
+}
+
+
+
+main{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+main div{
+    height: 400px;
+    position: relative;
+    background-color: white;
+    background-image: url('student.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   box-shadow: black 20px 10px 8px;
+   margin-bottom: 50px;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: steelblue;
+    text-shadow: black 1px 2px 3px ;
+}
+
+.container{
+
+
+    width: 70%;
+    margin-top: 50px;
+    background-color: rgba(44, 65, 185, 0.103);
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.container p{
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    margin-top: 7%;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    padding-top: 50px;
+}
+
+footer >h2 >a{
+    text-decoration: none;
+}
+
+@media (max-width:600px){
+
+ header div img{
+     display: none;
+ }
+
+
+
+ header{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     font-size: 20px;
+     
+ }
+
+ main{
+     margin: 0px;
+ }
+
+
+ .container{
+     width: 100%;
+ }
+
+
+}
